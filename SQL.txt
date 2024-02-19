@@ -1,9 +1,9 @@
 Задание 1
 
 SELECT login, COUNT(*)
-FROM Couriers;
-	JOIN Orders ON id = courierId
-	WHERE inDelivery = true
+FROM "Couriers";
+	JOIN "Orders" ON id = "courierId"
+	WHERE "inDelivery" = true
 GROUP BY login;
 
 
